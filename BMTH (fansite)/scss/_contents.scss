@@ -1,0 +1,720 @@
+@media (min-width: $mobile) and (max-width: $tabletMobile) {
+    .miniGalleryImg {
+
+        & .description {
+            padding: 50px;
+
+            & h1 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                font-size: 50px;
+                text-align: center;
+            }
+    
+            & p {
+                color: $colorBlack;
+                font-family: $fontDescription;
+                font-size: 25px;
+                line-height: 40px;
+                text-align: center;
+            }
+        }
+    }
+    
+    .publicity {
+        width: 100%;
+        height: 100%;
+        a {
+            width: 100%;
+            height: 100%;
+            img {
+                border: $borderBlack;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+    .miniGalleryVideos {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    
+        & .iframePrevia {
+            border: $boderViolet;
+            background-color: $colorBlack;
+
+            width: 300px;
+            height: 300px;
+            position: relative;
+            top: 50px;
+            left: 75px;
+    
+            & p {
+                color: $colorWhite;
+                font-family: $fontTitle;
+                font-size: 25px;
+                text-align: center;
+            }
+    
+            & a {
+
+                img {
+                    width: 100%;
+                    height: 200px;
+                }
+            }
+        }
+    
+        & .buttonMore {
+            position: relative;
+            top: 50px;
+            left: 175px;
+        }
+    }
+
+    .gallery {
+        & .bigTitleGallery {
+            h1 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .titleGalleryImg {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .galleryImg {
+            & .imgAll {
+                text-align: center;
+                img {
+                    text-align: center;
+                    width: 200px;
+                    height: 200px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .titleGalleryVideos {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .videosAll {
+            display: flex;
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            gap: 40px 40px;
+    
+            justify-content: space-around;
+
+            & .videoOfficial {
+                border: $boderViolet;
+                background-color: $colorBlack;
+                width: 400px;
+                height: 400px;
+                p {
+                    color: $colorWhite;
+                    font-family: $fontTitle;
+                    font-size: 25px;
+                    text-align: center;
+            
+                    position: relative;
+                    top: 0px;
+                }
+                a {
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+
+    .discographyComplete {
+        & .bigTitleDiscography {
+            h1 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .titleAlbumStudio {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .discs {
+            text-align: center;
+            line-height: 75px;
+        }
+
+        & .titleSingleEP {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .titleLive {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .titleCollaborations {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+    }
+
+    .members {
+        & .bigTitleMembers {
+            h1 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .oliver {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 15px;
+                text-align: center;
+                line-height: 30px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .mattN {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 15px;
+                text-align: center;
+                line-height: 30px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .lee {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 15px;
+                text-align: center;
+                line-height: 30px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .mattK {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 15px;
+                text-align: center;
+                line-height: 30px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .jordan {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 15px;
+                text-align: center;
+                line-height: 30px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+    }
+
+    .contactUs {
+        h1 {
+            color: $colorBlack;
+            font-family: $fontTitle;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        p {
+            padding: 15px;
+            color: $colorBlack;
+            font-family: $fontDescription;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+
+    .boxForm {
+        form {
+            background-image: url(../img/background-contact.jpg);
+            border-radius: 25px;
+            padding: 25px;
+    
+            color: $colorWhite;
+            font-family: $fontDescription;
+            text-align: center;
+            line-height: 20px;
+        }
+    }
+
+}
+@media (min-width: $tabletDesktop) and (max-width: $desktop) {
+    .miniGalleryImg {
+
+        & .carousel {
+            padding: 10px;
+        }
+
+        & .description {
+            padding: 50px;
+    
+            & h1 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                font-size: 50px;
+                text-align: center;
+            }
+    
+            & p {
+                color: $colorBlack;
+                font-family: $fontDescription;
+                font-size: 25px;
+                line-height: 50px;
+                text-align: center;
+            }
+        }
+    }
+    
+    .publicity {
+        width: 100%;
+        height: 100%;
+        a {
+            width: 100%;
+            height: 100%;
+            img {
+                border: $borderBlack;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+    .miniGalleryVideos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    
+        & .iframePrevia {
+            border: $boderViolet;
+            background-color: $colorBlack;
+
+            width: 300px;
+            height: 300px;
+            position: relative;
+            top: 75px;
+            left: 20px;
+    
+            & p {
+                color: $colorWhite;
+                font-family: $fontTitle;
+                font-size: 25px;
+                text-align: center;
+            }
+    
+            & a {
+
+                img {
+                    width: 100%;
+                    height: 200px;
+                }
+            }
+        }
+    
+        & .buttonMore {
+            position: relative;
+            top: 25px;
+            left: 450px;
+        }
+    }
+
+    .gallery {
+        & .bigTitleGallery {
+            h1 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .titleGalleryImg {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .galleryImg {
+            & .imgAll {
+                text-align: center;
+                img {
+                    width: 200px;
+                    height: 200px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .titleGalleryVideos {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .videosAll {
+            display: flex;
+            flex-direction: wrap;
+            flex-wrap: wrap;
+            gap: 40px 40px;
+    
+            justify-content: space-evenly;
+
+            & .videoOfficial {
+                border: $boderViolet;
+                background-color: $colorBlack;
+                width: 400px;
+                height: 400px;
+                p {
+                    color: $colorWhite;
+                    font-family: $fontTitle;
+                    font-size: 25px;
+                    text-align: center;
+            
+                    position: relative;
+                    top: 30px;
+                }
+                a {
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+
+    .discographyComplete {
+        & .bigTitleDiscography {
+            h1 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .titleAlbumStudio {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .discs {
+            text-align: center;
+            line-height: 75px;
+        }
+
+        & .titleSingleEP {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .titleLive {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .titleCollaborations {
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+    }
+
+    .members {
+        & .bigTitleMembers {
+            h1 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+        }
+
+        & .oliver {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 20px;
+                text-align: center;
+                line-height: 60px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .mattN {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 20px;
+                text-align: center;
+                line-height: 60px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .lee {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 20px;
+                text-align: center;
+                line-height: 60px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .mattK {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 20px;
+                text-align: center;
+                line-height: 60px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+
+        & .jordan {
+            width: 100%;
+            width: 100%;
+    
+            padding: 30px;
+            h2 {
+                color: $colorBlack;
+                font-family: $fontTitle;
+                text-align: center;
+            }
+
+            p {
+                font-family: $fontDescription;
+                font-size: 20px;
+                text-align: center;
+                line-height: 60px;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    border: $borderOrange;
+                }
+            }
+        }
+    }
+
+    .contactUs {
+        h1 {
+            color: $colorBlack;
+            font-family: $fontTitle;
+            font-size: 50px;
+            text-align: center;
+
+            position: relative;
+            top: -30px;
+        }
+
+        p {
+            padding: 30px;
+            color: $colorBlack;
+            font-family: $fontDescription;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    .boxForm {
+        form {
+            background-image: url(../img/background-contact.jpg);
+            border-radius: 50px;
+            padding: 50px;
+    
+            color: $colorWhite;
+            font-family: $fontDescription;
+            text-align: center;
+            line-height: 20px;
+        }
+    }
+}

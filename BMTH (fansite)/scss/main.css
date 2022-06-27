@@ -1,0 +1,1078 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .bodyHome {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[2] 10px 1fr 10px;
+        grid-template-columns: 10px repeat(2, 1fr) 10px 1fr 10px;
+    -ms-grid-rows: 100px 10px (350px)[3] 10px (600px)[2] 10px 300px;
+        grid-template-rows: 100px 10px repeat(3, 350px) 10px repeat(2, 600px) 10px 300px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .miniGalleryImg {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 3 / 2 / 6 / 4;
+  }
+  .publicity {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+    grid-area: 3 / 5 / 6 / 6;
+  }
+  .miniGalleryVideos {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 7 / 2 / 9 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+  .bodyGallery {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[4] 10px;
+        grid-template-columns: 10px repeat(4, 1fr) 10px;
+    -ms-grid-rows: 100px 10px (3250px)[7] 300px;
+        grid-template-rows: 100px 10px repeat(7, 3250px) 300px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .gallery {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 3 / 2 / 10 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+  .bodyDiscography {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[4] 10px;
+        grid-template-columns: 10px repeat(4, 1fr) 10px;
+    -ms-grid-rows: 100px 10px (2200px)[7] 300px;
+        grid-template-rows: 100px 10px repeat(7, 2200px) 300px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .discographyComplete {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 3 / 2 / 10 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+  .bodyMembers {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[4] 10px;
+        grid-template-columns: 10px repeat(4, 1fr) 10px;
+    -ms-grid-rows: 100px 10px (1725px)[7] 300px;
+        grid-template-rows: 100px 10px repeat(7, 1725px) 300px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .members {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 3 / 2 / 10 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+  .bodyContact {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[4] 10px;
+        grid-template-columns: 10px repeat(4, 1fr) 10px;
+    -ms-grid-rows: 100px 10px 300px 10px (150px)[4] 10px 300px;
+        grid-template-rows: 100px 10px 300px 10px repeat(4, 150px) 10px 300px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .contactUs {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 3 / 2 / 4 / 6;
+  }
+  .boxForm {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 5 / 2 / 9 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .bodyHome {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[2] 10px 1fr 10px;
+        grid-template-columns: 10px repeat(2, 1fr) 10px 1fr 10px;
+    -ms-grid-rows: 100px 10px (400px)[3] 10px (300px)[2] 10px 500px;
+        grid-template-rows: 100px 10px repeat(3, 400px) 10px repeat(2, 300px) 10px 500px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .miniGalleryImg {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: 3 / 2 / 6 / 4;
+  }
+  .publicity {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+    grid-area: 3 / 5 / 6 / 6;
+  }
+  .miniGalleryVideos {
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 7 / 2 / 9 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+  .bodyGallery {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[4] 10px;
+        grid-template-columns: 10px repeat(4, 1fr) 10px;
+    -ms-grid-rows: 100px 10px (1800px)[7] 500px;
+        grid-template-rows: 100px 10px repeat(7, 1800px) 500px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .gallery {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 3 / 2 / 10 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+  .bodyDiscography {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[4] 10px;
+        grid-template-columns: 10px repeat(4, 1fr) 10px;
+    -ms-grid-rows: 100px 10px (900px)[7] 500px;
+        grid-template-rows: 100px 10px repeat(7, 900px) 500px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .discographyComplete {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 3 / 2 / 10 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+  .bodyMembers {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[4] 10px;
+        grid-template-columns: 10px repeat(4, 1fr) 10px;
+    -ms-grid-rows: 100px 10px (1500px)[7] 500px;
+        grid-template-rows: 100px 10px repeat(7, 1500px) 500px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .members {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 3 / 2 / 10 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+  .bodyContact {
+    background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(orange), color-stop(crimson), to(yellow));
+    background-image: linear-gradient(to left, red, orange, crimson, yellow);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10px (1fr)[4] 10px;
+        grid-template-columns: 10px repeat(4, 1fr) 10px;
+    -ms-grid-rows: 100px 10px 300px 10px (200px)[4] 10px 500px;
+        grid-template-rows: 100px 10px 300px 10px repeat(4, 200px) 10px 500px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  .contactUs {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 3 / 2 / 4 / 6;
+  }
+  .boxForm {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 5 / 2 / 9 / 6;
+  }
+  .footer {
+    -ms-grid-row: 10;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-area: 10 / 1 / 11 / 7;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1300px) {
+  .header {
+    width: 100%;
+    height: 100%;
+  }
+  .header__nav nav div a {
+    font-family: "Permanent Marker", cursive;
+  }
+  .header__nav nav div div div h5 {
+    font-family: "Permanent Marker", cursive;
+  }
+  .header__nav nav div div div ul li a {
+    font-family: "Gochi Hand", cursive;
+  }
+  .header__nav nav div div div form input {
+    font-family: "Gochi Hand", cursive;
+  }
+  .header__nav nav div div div form button {
+    font-family: "Permanent Marker", cursive;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .miniGalleryImg .description {
+    padding: 50px;
+  }
+  .miniGalleryImg .description h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+  .miniGalleryImg .description p {
+    color: black;
+    font-family: "Gochi Hand", cursive;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .publicity {
+    width: 100%;
+    height: 100%;
+  }
+  .publicity a {
+    width: 100%;
+    height: 100%;
+  }
+  .publicity a img {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+  }
+  .miniGalleryVideos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+  }
+  .miniGalleryVideos .iframePrevia {
+    border: 2px solid #d567d5;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 75px;
+  }
+  .miniGalleryVideos .iframePrevia p {
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+    text-align: center;
+  }
+  .miniGalleryVideos .iframePrevia a img {
+    width: 100%;
+    height: 200px;
+  }
+  .miniGalleryVideos .buttonMore {
+    position: relative;
+    top: 50px;
+    left: 175px;
+  }
+  .gallery .bigTitleGallery h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .gallery .titleGalleryImg h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .gallery .galleryImg .imgAll {
+    text-align: center;
+  }
+  .gallery .galleryImg .imgAll img {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid orangered;
+  }
+  .gallery .titleGalleryVideos h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .gallery .videosAll {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: wrap;
+            flex-direction: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 40px 40px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .gallery .videosAll .videoOfficial {
+    border: 2px solid #d567d5;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+  }
+  .gallery .videosAll .videoOfficial p {
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+  }
+  .gallery .videosAll .videoOfficial a img {
+    width: 100%;
+    height: 300px;
+  }
+  .discographyComplete .bigTitleDiscography h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .discographyComplete .titleAlbumStudio h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .discographyComplete .discs {
+    text-align: center;
+    line-height: 75px;
+  }
+  .discographyComplete .titleSingleEP h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .discographyComplete .titleLive h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .discographyComplete .titleCollaborations h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .bigTitleMembers h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .oliver {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .oliver h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .oliver p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .members .oliver p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .members .mattN {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .mattN h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .mattN p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .members .mattN p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .members .lee {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .lee h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .lee p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .members .lee p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .members .mattK {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .mattK h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .mattK p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .members .mattK p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .members .jordan {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .jordan h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .jordan p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .members .jordan p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .contactUs h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    text-align: center;
+  }
+  .contactUs p {
+    padding: 15px;
+    color: black;
+    font-family: "Gochi Hand", cursive;
+    font-size: 15px;
+    text-align: center;
+  }
+  .boxForm form {
+    background-image: url(../img/background-contact.jpg);
+    border-radius: 25px;
+    padding: 25px;
+    color: white;
+    font-family: "Gochi Hand", cursive;
+    text-align: center;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .miniGalleryImg .carousel {
+    padding: 10px;
+  }
+  .miniGalleryImg .description {
+    padding: 50px;
+  }
+  .miniGalleryImg .description h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+  .miniGalleryImg .description p {
+    color: black;
+    font-family: "Gochi Hand", cursive;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .publicity {
+    width: 100%;
+    height: 100%;
+  }
+  .publicity a {
+    width: 100%;
+    height: 100%;
+  }
+  .publicity a img {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+  }
+  .miniGalleryVideos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15px;
+  }
+  .miniGalleryVideos .iframePrevia {
+    border: 2px solid #d567d5;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 75px;
+    left: 20px;
+  }
+  .miniGalleryVideos .iframePrevia p {
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+    text-align: center;
+  }
+  .miniGalleryVideos .iframePrevia a img {
+    width: 100%;
+    height: 200px;
+  }
+  .miniGalleryVideos .buttonMore {
+    position: relative;
+    top: 25px;
+    left: 450px;
+  }
+  .gallery .bigTitleGallery h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .gallery .titleGalleryImg h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .gallery .galleryImg .imgAll {
+    text-align: center;
+  }
+  .gallery .galleryImg .imgAll img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid orangered;
+  }
+  .gallery .titleGalleryVideos h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .gallery .videosAll {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: wrap;
+            flex-direction: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 40px 40px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .gallery .videosAll .videoOfficial {
+    border: 2px solid #d567d5;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+  }
+  .gallery .videosAll .videoOfficial p {
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+  }
+  .gallery .videosAll .videoOfficial a img {
+    width: 100%;
+    height: 300px;
+  }
+  .discographyComplete .bigTitleDiscography h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .discographyComplete .titleAlbumStudio h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .discographyComplete .discs {
+    text-align: center;
+    line-height: 75px;
+  }
+  .discographyComplete .titleSingleEP h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .discographyComplete .titleLive h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .discographyComplete .titleCollaborations h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .bigTitleMembers h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .oliver {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .oliver h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .oliver p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .members .oliver p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .members .mattN {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .mattN h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .mattN p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .members .mattN p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .members .lee {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .lee h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .lee p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .members .lee p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .members .mattK {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .mattK h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .mattK p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .members .mattK p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .members .jordan {
+    width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+  .members .jordan h2 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+  }
+  .members .jordan p {
+    font-family: "Gochi Hand", cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .members .jordan p img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid orangered;
+  }
+  .contactUs h1 {
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+  }
+  .contactUs p {
+    padding: 30px;
+    color: black;
+    font-family: "Gochi Hand", cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+  .boxForm form {
+    background-image: url(../img/background-contact.jpg);
+    border-radius: 50px;
+    padding: 50px;
+    color: white;
+    font-family: "Gochi Hand", cursive;
+    text-align: center;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer__logo {
+    width: 25%;
+    height: 100%;
+  }
+  .footer__logo a img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+  }
+  .footer__history {
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    color: white;
+    line-height: 20px;
+    text-align: center;
+  }
+  .footer__history h1 {
+    font-size: 15px;
+    font-family: "Permanent Marker", cursive;
+  }
+  .footer__history p {
+    font-size: 5px;
+    font-family: "Gochi Hand", cursive;
+  }
+  .footer__links {
+    width: 25%;
+    height: 100%;
+  }
+  .footer__links div {
+    text-align: center;
+    line-height: 75px;
+  }
+  .footer__links a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .footer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer__logo {
+    width: 25%;
+    height: 100%;
+  }
+  .footer__logo a img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 75px;
+    left: 40px;
+  }
+  .footer__history {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    color: white;
+    text-align: center;
+  }
+  .footer__history h1 {
+    font-size: 30px;
+    font-family: "Permanent Marker", cursive;
+  }
+  .footer__history p {
+    font-size: 15px;
+    font-family: "Gochi Hand", cursive;
+    line-height: 30px;
+  }
+  .footer__links {
+    width: 25%;
+    height: 100%;
+  }
+  .footer__links div {
+    text-align: center;
+    line-height: 110px;
+  }
+  .footer__links div a img {
+    width: 50px;
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

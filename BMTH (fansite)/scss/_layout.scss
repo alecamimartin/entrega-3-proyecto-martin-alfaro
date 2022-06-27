@@ -1,0 +1,139 @@
+@media (min-width: $mobile) and (max-width: $tabletMobile) {
+    .bodyHome {
+        background-image: linear-gradient($gradient);
+        display: grid;
+        grid-template-columns: 10px repeat(2, 1fr) 10px 1fr 10px;
+        grid-template-rows: 100px 10px repeat(3, 350px) 10px repeat(2, 600px) 10px 300px;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .miniGalleryImg { grid-area: 3 / 2 / 6 / 4; }
+        .publicity { grid-area: 3 / 5 / 6 / 6; }
+        .miniGalleryVideos { grid-area: 7 / 2 / 9 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+
+        .bodyGallery {
+            background-image: linear-gradient($gradient);
+            display: grid;
+            grid-template-columns: 10px repeat(4, 1fr) 10px;
+            grid-template-rows: 100px 10px repeat(7, 3250px) 300px;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+        
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .gallery { grid-area: 3 / 2 / 10 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+
+        .bodyDiscography {
+            background-image: linear-gradient($gradient);
+            display: grid;
+            grid-template-columns: 10px repeat(4, 1fr) 10px;
+            grid-template-rows: 100px 10px repeat(7, 2200px) 300px;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .discographyComplete { grid-area: 3 / 2 / 10 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+
+        .bodyMembers {
+            background-image: linear-gradient($gradient);
+            display: grid;
+            grid-template-columns: 10px repeat(4, 1fr) 10px;
+            grid-template-rows: 100px 10px repeat(7, 1725px) 300px;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .members { grid-area: 3 / 2 / 10 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+
+        .bodyContact {
+            background-image: linear-gradient($gradient);
+            display: grid;
+            grid-template-columns: 10px repeat(4, 1fr) 10px;
+            grid-template-rows: 100px 10px 300px 10px repeat(4, 150px) 10px 300px;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .contactUs { grid-area: 3 / 2 / 4 / 6; }
+        .boxForm { grid-area: 5 / 2 / 9 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+}
+
+@media (min-width: $tabletDesktop) and (max-width: $desktop) {
+    .bodyHome {
+        background-image: linear-gradient($gradient);
+        display: grid;
+        grid-template-columns: 10px repeat(2, 1fr) 10px 1fr 10px;
+        grid-template-rows: 100px 10px repeat(3, 400px) 10px repeat(2, 300px) 10px 500px;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .miniGalleryImg { grid-area: 3 / 2 / 6 / 4; }
+        .publicity { grid-area: 3 / 5 / 6 / 6; }
+        .miniGalleryVideos { grid-area: 7 / 2 / 9 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+
+        .bodyGallery {
+            background-image: linear-gradient($gradient);
+            display: grid;
+            grid-template-columns: 10px repeat(4, 1fr) 10px;
+            grid-template-rows: 100px 10px repeat(7, 1800px) 500px;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+        
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .gallery { grid-area: 3 / 2 / 10 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+
+        .bodyDiscography {
+            background-image: linear-gradient($gradient);
+            display: grid;
+            grid-template-columns: 10px repeat(4, 1fr) 10px;
+            grid-template-rows: 100px 10px repeat(7, 900px) 500px;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .discographyComplete { grid-area: 3 / 2 / 10 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+
+        .bodyMembers {
+            background-image: linear-gradient($gradient);
+            display: grid;
+            grid-template-columns: 10px repeat(4, 1fr) 10px;
+            grid-template-rows: 100px 10px repeat(7, 1500px) 500px;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .members { grid-area: 3 / 2 / 10 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+
+        .bodyContact {
+            background-image: linear-gradient($gradient);
+            display: grid;
+            grid-template-columns: 10px repeat(4, 1fr) 10px;
+            grid-template-rows: 100px 10px 300px 10px repeat(4, 200px) 10px 500px;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .header { grid-area: 1 / 1 / 2 / 7; }
+        .contactUs { grid-area: 3 / 2 / 4 / 6; }
+        .boxForm { grid-area: 5 / 2 / 9 / 6; }
+        .footer { grid-area: 10 / 1 / 11 / 7; }
+}
